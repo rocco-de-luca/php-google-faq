@@ -1,0 +1,48 @@
+
+body{
+    font-family: sans-serif;
+    color: #5f6368;
+}
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+img{
+    width: 100px;
+    margin-left: 50px;
+}
+span{
+    margin: 10px;   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+}
+nav li a{
+    text-decoration: none;
+    color: #5f6368;
+}
+a.active:focus{
+    color: blue;
+}
+nav a{
+    text-decoration: none;
+    color: #5f6368;
+    margin-right: 20px;
+}
+main{
+    margin: 0 auto;
+    width: 80%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.54;
+}
+
+
